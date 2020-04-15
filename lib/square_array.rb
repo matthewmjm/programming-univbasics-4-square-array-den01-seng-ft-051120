@@ -8,4 +8,5 @@ def square_array(array)
   array.length.times { |inx|
    new_array.push(array[inx] ** 2) 
   }
+  new_array
 end

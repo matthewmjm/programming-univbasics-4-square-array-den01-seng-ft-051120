@@ -6,6 +6,6 @@
 def square_array(array)
   new_array = []
   array.length.times { |inx|
-    
+   new_array.push(array[inx] ** 2) 
   }
 end
